@@ -1,0 +1,59 @@
+{
+  "uid" : "83e47f28a6392eb3",
+  "name" : "test[TC-45 (46 is not a prime number),46,false]",
+  "title" : "Test [TC-45 (46 is not a prime number),46,false]",
+  "time" : {
+    "start" : 1510204784231,
+    "stop" : 1510204784231,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "bc62db27ff4231db",
+    "name" : "TestNG Suite : PrimeNumber",
+    "title" : "TestNG Suite : PrimeNumber"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "thread",
+    "value" : "6860@Vova-ПК.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "Vova-ПК"
+  }, {
+    "name" : "suite-name",
+    "value" : "TestNG Suite : PrimeNumber"
+  }, {
+    "name" : "testGroup",
+    "value" : "PrimeNumber"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "suite-title",
+    "value" : "TestNG Suite : PrimeNumber"
+  }, {
+    "name" : "testClass",
+    "value" : "core.PrimeNumberCheckerTest"
+  }, {
+    "name" : "testSuite",
+    "value" : "TestNG Suite"
+  } ],
+  "parameters" : [ ]
+}

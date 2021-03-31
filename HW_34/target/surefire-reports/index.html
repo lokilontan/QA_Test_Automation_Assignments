@@ -1,0 +1,2298 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">99 methods,   99 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(63, false)">test(63, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(74, false)">test(74, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(89, true)">test(89, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(59, true)">test(59, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(81, false)">test(81, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(43, true)">test(43, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(28, false)">test(28, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(70, false)">test(70, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(92, false)">test(92, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(95, false)">test(95, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(55, false)">test(55, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(38, false)">test(38, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(65, false)">test(65, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(93, false)">test(93, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(10, false)">test(10, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(42, false)">test(42, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(85, false)">test(85, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(3, true)">test(3, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(79, true)">test(79, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(66, false)">test(66, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(21, false)">test(21, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(12, false)">test(12, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(98, false)">test(98, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(23, true)">test(23, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(56, false)">test(56, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(40, false)">test(40, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(25, false)">test(25, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(30, false)">test(30, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(29, true)">test(29, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(71, true)">test(71, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(53, true)">test(53, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(14, false)">test(14, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(97, true)">test(97, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(7, true)">test(7, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(4, false)">test(4, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(77, false)">test(77, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(61, true)">test(61, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(73, true)">test(73, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(78, false)">test(78, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(18, false)">test(18, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(24, false)">test(24, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(44, false)">test(44, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(32, false)">test(32, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(31, true)">test(31, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(35, false)">test(35, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(88, false)">test(88, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(87, false)">test(87, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(82, false)">test(82, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(16, false)">test(16, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(33, false)">test(33, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(86, false)">test(86, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(5, true)">test(5, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(80, false)">test(80, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(76, false)">test(76, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(96, false)">test(96, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(6, false)">test(6, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(46, false)">test(46, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(99, false)">test(99, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(37, true)">test(37, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(51, false)">test(51, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(22, false)">test(22, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(17, true)">test(17, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(54, false)">test(54, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(9, false)">test(9, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(72, false)">test(72, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(49, false)">test(49, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(91, false)">test(91, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(83, true)">test(83, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(50, false)">test(50, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(15, false)">test(15, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(27, false)">test(27, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(57, false)">test(57, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(45, false)">test(45, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(84, false)">test(84, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(90, false)">test(90, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(26, false)">test(26, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(8, false)">test(8, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(52, false)">test(52, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(75, false)">test(75, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(11, true)">test(11, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(39, false)">test(39, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(47, true)">test(47, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(69, false)">test(69, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(20, false)">test(20, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(68, false)">test(68, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(13, true)">test(13, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(58, false)">test(58, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(48, false)">test(48, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(60, false)">test(60, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(36, false)">test(36, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(19, true)">test(19, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(41, true)">test(41, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(64, false)">test(64, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(2, true)">test(2, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(100, false)">test(100, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(67, true)">test(67, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(62, false)">test(62, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(34, false)">test(34, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="core.PrimeNumberCheckerTest" hash-for-method="test(94, false)">test(94, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">core.PrimeNumberCheckerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(63, false)">
+                  </a> <!-- test(63, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(63, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(74, false)">
+                  </a> <!-- test(74, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(74, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(89, true)">
+                  </a> <!-- test(89, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(89, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(59, true)">
+                  </a> <!-- test(59, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(59, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(81, false)">
+                  </a> <!-- test(81, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(81, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(43, true)">
+                  </a> <!-- test(43, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(43, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(28, false)">
+                  </a> <!-- test(28, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(28, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(70, false)">
+                  </a> <!-- test(70, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(70, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(92, false)">
+                  </a> <!-- test(92, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(92, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(95, false)">
+                  </a> <!-- test(95, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(95, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(55, false)">
+                  </a> <!-- test(55, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(55, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(38, false)">
+                  </a> <!-- test(38, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(38, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(65, false)">
+                  </a> <!-- test(65, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(65, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(93, false)">
+                  </a> <!-- test(93, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(93, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(10, false)">
+                  </a> <!-- test(10, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(10, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(42, false)">
+                  </a> <!-- test(42, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(42, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(85, false)">
+                  </a> <!-- test(85, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(85, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(3, true)">
+                  </a> <!-- test(3, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(3, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(79, true)">
+                  </a> <!-- test(79, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(79, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(66, false)">
+                  </a> <!-- test(66, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(66, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(21, false)">
+                  </a> <!-- test(21, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(21, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(12, false)">
+                  </a> <!-- test(12, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(12, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(98, false)">
+                  </a> <!-- test(98, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(98, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(23, true)">
+                  </a> <!-- test(23, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(23, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(56, false)">
+                  </a> <!-- test(56, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(56, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(40, false)">
+                  </a> <!-- test(40, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(40, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(25, false)">
+                  </a> <!-- test(25, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(25, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(30, false)">
+                  </a> <!-- test(30, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(30, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(29, true)">
+                  </a> <!-- test(29, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(29, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(71, true)">
+                  </a> <!-- test(71, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(71, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(53, true)">
+                  </a> <!-- test(53, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(53, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(14, false)">
+                  </a> <!-- test(14, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(14, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(97, true)">
+                  </a> <!-- test(97, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(97, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(7, true)">
+                  </a> <!-- test(7, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(7, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(4, false)">
+                  </a> <!-- test(4, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(4, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(77, false)">
+                  </a> <!-- test(77, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(77, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(61, true)">
+                  </a> <!-- test(61, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(61, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(73, true)">
+                  </a> <!-- test(73, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(73, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(78, false)">
+                  </a> <!-- test(78, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(78, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(18, false)">
+                  </a> <!-- test(18, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(18, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(24, false)">
+                  </a> <!-- test(24, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(24, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(44, false)">
+                  </a> <!-- test(44, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(44, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(32, false)">
+                  </a> <!-- test(32, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(32, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(31, true)">
+                  </a> <!-- test(31, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(31, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(35, false)">
+                  </a> <!-- test(35, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(35, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(88, false)">
+                  </a> <!-- test(88, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(88, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(87, false)">
+                  </a> <!-- test(87, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(87, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(82, false)">
+                  </a> <!-- test(82, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(82, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(16, false)">
+                  </a> <!-- test(16, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(16, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(33, false)">
+                  </a> <!-- test(33, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(33, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(86, false)">
+                  </a> <!-- test(86, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(86, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(5, true)">
+                  </a> <!-- test(5, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(5, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(80, false)">
+                  </a> <!-- test(80, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(80, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(76, false)">
+                  </a> <!-- test(76, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(76, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(96, false)">
+                  </a> <!-- test(96, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(96, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(6, false)">
+                  </a> <!-- test(6, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(6, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(46, false)">
+                  </a> <!-- test(46, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(46, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(99, false)">
+                  </a> <!-- test(99, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(99, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(37, true)">
+                  </a> <!-- test(37, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(37, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(51, false)">
+                  </a> <!-- test(51, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(51, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(22, false)">
+                  </a> <!-- test(22, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(22, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(17, true)">
+                  </a> <!-- test(17, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(17, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(54, false)">
+                  </a> <!-- test(54, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(54, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(9, false)">
+                  </a> <!-- test(9, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(9, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(72, false)">
+                  </a> <!-- test(72, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(72, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(49, false)">
+                  </a> <!-- test(49, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(49, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(91, false)">
+                  </a> <!-- test(91, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(91, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(83, true)">
+                  </a> <!-- test(83, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(83, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(50, false)">
+                  </a> <!-- test(50, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(50, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(15, false)">
+                  </a> <!-- test(15, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(15, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(27, false)">
+                  </a> <!-- test(27, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(27, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(57, false)">
+                  </a> <!-- test(57, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(57, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(45, false)">
+                  </a> <!-- test(45, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(45, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(84, false)">
+                  </a> <!-- test(84, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(84, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(90, false)">
+                  </a> <!-- test(90, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(90, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(26, false)">
+                  </a> <!-- test(26, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(26, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(8, false)">
+                  </a> <!-- test(8, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(8, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(52, false)">
+                  </a> <!-- test(52, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(52, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(75, false)">
+                  </a> <!-- test(75, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(75, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(11, true)">
+                  </a> <!-- test(11, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(11, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(39, false)">
+                  </a> <!-- test(39, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(39, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(47, true)">
+                  </a> <!-- test(47, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(47, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(69, false)">
+                  </a> <!-- test(69, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(69, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(20, false)">
+                  </a> <!-- test(20, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(20, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(68, false)">
+                  </a> <!-- test(68, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(68, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(13, true)">
+                  </a> <!-- test(13, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(13, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(58, false)">
+                  </a> <!-- test(58, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(58, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(48, false)">
+                  </a> <!-- test(48, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(48, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(60, false)">
+                  </a> <!-- test(60, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(60, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(36, false)">
+                  </a> <!-- test(36, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(36, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(19, true)">
+                  </a> <!-- test(19, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(19, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(41, true)">
+                  </a> <!-- test(41, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(41, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(64, false)">
+                  </a> <!-- test(64, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(64, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(2, true)">
+                  </a> <!-- test(2, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(2, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(100, false)">
+                  </a> <!-- test(100, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(100, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(67, true)">
+                  </a> <!-- test(67, true) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(67, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(62, false)">
+                  </a> <!-- test(62, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(62, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(34, false)">
+                  </a> <!-- test(34, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(34, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(94, false)">
+                  </a> <!-- test(94, false) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(94, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;core.PrimeNumberCheckerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">qa</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(99);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(0, 3, 93);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(1, 3, 47);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(2, 3, 47);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test')
+data.setCell(3, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(3, 3, 31);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test')
+data.setCell(4, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(4, 3, 16);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test')
+data.setCell(5, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(5, 3, 16);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test')
+data.setCell(6, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(6, 3, 16);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test')
+data.setCell(7, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(7, 3, 16);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test')
+data.setCell(8, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(8, 3, 16);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test')
+data.setCell(9, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(9, 3, 16);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test')
+data.setCell(10, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(10, 3, 16);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test')
+data.setCell(11, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(11, 3, 16);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test')
+data.setCell(12, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(12, 3, 16);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test')
+data.setCell(13, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(13, 3, 16);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test')
+data.setCell(14, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(14, 3, 16);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test')
+data.setCell(15, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(15, 3, 15);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test')
+data.setCell(16, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(16, 3, 15);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test')
+data.setCell(17, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(17, 3, 15);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test')
+data.setCell(18, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(18, 3, 15);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test')
+data.setCell(19, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(19, 3, 15);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test')
+data.setCell(20, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(20, 3, 15);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test')
+data.setCell(21, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'test')
+data.setCell(22, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'test')
+data.setCell(23, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'test')
+data.setCell(24, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'test')
+data.setCell(25, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'test')
+data.setCell(26, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'test')
+data.setCell(27, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'test')
+data.setCell(28, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'test')
+data.setCell(29, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'test')
+data.setCell(30, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'test')
+data.setCell(31, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'test')
+data.setCell(32, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'test')
+data.setCell(33, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'test')
+data.setCell(34, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'test')
+data.setCell(35, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'test')
+data.setCell(36, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'test')
+data.setCell(37, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'test')
+data.setCell(38, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'test')
+data.setCell(39, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'test')
+data.setCell(40, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'test')
+data.setCell(41, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'test')
+data.setCell(42, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'test')
+data.setCell(43, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'test')
+data.setCell(44, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'test')
+data.setCell(45, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'test')
+data.setCell(46, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'test')
+data.setCell(47, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'test')
+data.setCell(48, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'test')
+data.setCell(49, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'test')
+data.setCell(50, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'test')
+data.setCell(51, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'test')
+data.setCell(52, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'test')
+data.setCell(53, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'test')
+data.setCell(54, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'test')
+data.setCell(55, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'test')
+data.setCell(56, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'test')
+data.setCell(57, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'test')
+data.setCell(58, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'test')
+data.setCell(59, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(59, 3, 0);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'test')
+data.setCell(60, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(60, 3, 0);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'test')
+data.setCell(61, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(61, 3, 0);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'test')
+data.setCell(62, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(62, 3, 0);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'test')
+data.setCell(63, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(63, 3, 0);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'test')
+data.setCell(64, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(64, 3, 0);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'test')
+data.setCell(65, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(65, 3, 0);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'test')
+data.setCell(66, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(66, 3, 0);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'test')
+data.setCell(67, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(67, 3, 0);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'test')
+data.setCell(68, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(68, 3, 0);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'test')
+data.setCell(69, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(69, 3, 0);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'test')
+data.setCell(70, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(70, 3, 0);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'test')
+data.setCell(71, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(71, 3, 0);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'test')
+data.setCell(72, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(72, 3, 0);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'test')
+data.setCell(73, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(73, 3, 0);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'test')
+data.setCell(74, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(74, 3, 0);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'test')
+data.setCell(75, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(75, 3, 0);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'test')
+data.setCell(76, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(76, 3, 0);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'test')
+data.setCell(77, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(77, 3, 0);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'test')
+data.setCell(78, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(78, 3, 0);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'test')
+data.setCell(79, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(79, 3, 0);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'test')
+data.setCell(80, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(80, 3, 0);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'test')
+data.setCell(81, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(81, 3, 0);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'test')
+data.setCell(82, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(82, 3, 0);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'test')
+data.setCell(83, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(83, 3, 0);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'test')
+data.setCell(84, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(84, 3, 0);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'test')
+data.setCell(85, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(85, 3, 0);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'test')
+data.setCell(86, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(86, 3, 0);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'test')
+data.setCell(87, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(87, 3, 0);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'test')
+data.setCell(88, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(88, 3, 0);
+data.setCell(89, 0, 89)
+data.setCell(89, 1, 'test')
+data.setCell(89, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(89, 3, 0);
+data.setCell(90, 0, 90)
+data.setCell(90, 1, 'test')
+data.setCell(90, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(90, 3, 0);
+data.setCell(91, 0, 91)
+data.setCell(91, 1, 'test')
+data.setCell(91, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(91, 3, 0);
+data.setCell(92, 0, 92)
+data.setCell(92, 1, 'test')
+data.setCell(92, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(92, 3, 0);
+data.setCell(93, 0, 93)
+data.setCell(93, 1, 'test')
+data.setCell(93, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(93, 3, 0);
+data.setCell(94, 0, 94)
+data.setCell(94, 1, 'test')
+data.setCell(94, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(94, 3, 0);
+data.setCell(95, 0, 95)
+data.setCell(95, 1, 'test')
+data.setCell(95, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(95, 3, 0);
+data.setCell(96, 0, 96)
+data.setCell(96, 1, 'test')
+data.setCell(96, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(96, 3, 0);
+data.setCell(97, 0, 97)
+data.setCell(97, 1, 'test')
+data.setCell(97, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(97, 3, 0);
+data.setCell(98, 0, 98)
+data.setCell(98, 1, 'test')
+data.setCell(98, 2, 'core.PrimeNumberCheckerTest')
+data.setCell(98, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 484 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">core.PrimeNumberCheckerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test(2, true)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(3, true)</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(4, false)</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(5, true)</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(6, false)</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(7, true)</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(8, false)</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(9, false)</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(10, false)</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(11, true)</span>
+                <span class="method-start">140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(12, false)</span>
+                <span class="method-start">140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(13, true)</span>
+                <span class="method-start">140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(14, false)</span>
+                <span class="method-start">140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(15, false)</span>
+                <span class="method-start">140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(16, false)</span>
+                <span class="method-start">140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(17, true)</span>
+                <span class="method-start">140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(18, false)</span>
+                <span class="method-start">187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(19, true)</span>
+                <span class="method-start">187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(20, false)</span>
+                <span class="method-start">187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(21, false)</span>
+                <span class="method-start">203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(22, false)</span>
+                <span class="method-start">203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(23, true)</span>
+                <span class="method-start">203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(24, false)</span>
+                <span class="method-start">218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(25, false)</span>
+                <span class="method-start">218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(26, false)</span>
+                <span class="method-start">218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(27, false)</span>
+                <span class="method-start">218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(28, false)</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(29, true)</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(30, false)</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(31, true)</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(32, false)</span>
+                <span class="method-start">249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(33, false)</span>
+                <span class="method-start">249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(34, false)</span>
+                <span class="method-start">249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(35, false)</span>
+                <span class="method-start">265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(36, false)</span>
+                <span class="method-start">281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(37, true)</span>
+                <span class="method-start">281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(38, false)</span>
+                <span class="method-start">281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(39, false)</span>
+                <span class="method-start">281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(40, false)</span>
+                <span class="method-start">281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(41, true)</span>
+                <span class="method-start">281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(42, false)</span>
+                <span class="method-start">281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(43, true)</span>
+                <span class="method-start">281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(44, false)</span>
+                <span class="method-start">281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(45, false)</span>
+                <span class="method-start">296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(46, false)</span>
+                <span class="method-start">296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(47, true)</span>
+                <span class="method-start">296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(48, false)</span>
+                <span class="method-start">296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(49, false)</span>
+                <span class="method-start">296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(50, false)</span>
+                <span class="method-start">296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(51, false)</span>
+                <span class="method-start">296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(52, false)</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(53, true)</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(54, false)</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(55, false)</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(56, false)</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(57, false)</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(58, false)</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(59, true)</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(60, false)</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(61, true)</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(62, false)</span>
+                <span class="method-start">312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(63, false)</span>
+                <span class="method-start">327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(64, false)</span>
+                <span class="method-start">327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(65, false)</span>
+                <span class="method-start">327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(66, false)</span>
+                <span class="method-start">327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(67, true)</span>
+                <span class="method-start">327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(68, false)</span>
+                <span class="method-start">327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(69, false)</span>
+                <span class="method-start">327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(70, false)</span>
+                <span class="method-start">359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(71, true)</span>
+                <span class="method-start">359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(72, false)</span>
+                <span class="method-start">359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(73, true)</span>
+                <span class="method-start">374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(74, false)</span>
+                <span class="method-start">374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(75, false)</span>
+                <span class="method-start">390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(76, false)</span>
+                <span class="method-start">390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(77, false)</span>
+                <span class="method-start">390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(78, false)</span>
+                <span class="method-start">390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(79, true)</span>
+                <span class="method-start">405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(80, false)</span>
+                <span class="method-start">405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(81, false)</span>
+                <span class="method-start">421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(82, false)</span>
+                <span class="method-start">437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(83, true)</span>
+                <span class="method-start">468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(84, false)</span>
+                <span class="method-start">468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(85, false)</span>
+                <span class="method-start">483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(86, false)</span>
+                <span class="method-start">483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(87, false)</span>
+                <span class="method-start">499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(88, false)</span>
+                <span class="method-start">499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(89, true)</span>
+                <span class="method-start">499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(90, false)</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(91, false)</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(92, false)</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(93, false)</span>
+                <span class="method-start">530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(94, false)</span>
+                <span class="method-start">530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(95, false)</span>
+                <span class="method-start">530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(96, false)</span>
+                <span class="method-start">546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(97, true)</span>
+                <span class="method-start">593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(98, false)</span>
+                <span class="method-start">593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(99, false)</span>
+                <span class="method-start">593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(100, false)</span>
+                <span class="method-start">608 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

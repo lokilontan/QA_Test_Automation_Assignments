@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1510204783584" stop="1510204784552" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>TestNG Suite : PrimeNumber</name>
+    <title>TestNG Suite : PrimeNumber</title>
+    <test-cases>
+        <test-case start="1510204783974" stop="1510204784021" status="passed">
+            <name>test[TC-01 (2 is a prime number),2,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784039" stop="1510204784041" status="passed">
+            <name>test[TC-02 (3 is a prime number),3,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784041" stop="1510204784041" status="passed">
+            <name>test[TC-03 (4 is not a prime number),4,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784041" stop="1510204784041" status="passed">
+            <name>test[TC-04 (5 is a prime number),5,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784041" stop="1510204784057" status="passed">
+            <name>test[TC-05 (6 is not a prime number),6,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784057" stop="1510204784057" status="passed">
+            <name>test[TC-06 (7 is a prime number),7,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784057" stop="1510204784072" status="passed">
+            <name>test[TC-07 (8 is not a prime number),8,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784072" stop="1510204784072" status="passed">
+            <name>test[TC-08 (9 is not a prime number),9,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784072" stop="1510204784072" status="passed">
+            <name>test[TC-9 (10 is not a prime number),10,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784072" stop="1510204784088" status="passed">
+            <name>test[TC-10 (11 is a prime number),11,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784088" stop="1510204784088" status="passed">
+            <name>test[TC-11 (12 is not a prime number),12,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784088" stop="1510204784088" status="passed">
+            <name>test[TC-12 (13 is a prime number),13,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784088" stop="1510204784104" status="passed">
+            <name>test[TC-13 (14 is not a prime number),14,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784104" stop="1510204784104" status="passed">
+            <name>test[TC-14 (15 is not a prime number),15,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784104" stop="1510204784104" status="passed">
+            <name>test[TC-15 (16 is not a prime number),16,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784104" stop="1510204784119" status="passed">
+            <name>test[TC-16 (17 is a prime number),17,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784119" stop="1510204784119" status="passed">
+            <name>test[TC-17 (18 is not a prime number),18,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784119" stop="1510204784119" status="passed">
+            <name>test[TC-18 (19 is a prime number),19,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784119" stop="1510204784135" status="passed">
+            <name>test[TC-19 (20 is not a prime number),20,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784135" stop="1510204784135" status="passed">
+            <name>test[TC-20 (21 is not a prime number),21,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784135" stop="1510204784135" status="passed">
+            <name>test[TC-21 (22 is not a prime number),22,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784135" stop="1510204784135" status="passed">
+            <name>test[TC-22 (23 is a prime number),23,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784150" stop="1510204784153" status="passed">
+            <name>test[TC-23 (24 is not a prime number),24,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784153" stop="1510204784153" status="passed">
+            <name>test[TC-24 (25 is not a prime number),25,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784153" stop="1510204784153" status="passed">
+            <name>test[TC-25 (26 is not a prime number),26,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784153" stop="1510204784153" status="passed">
+            <name>test[TC-26 (27 is not a prime number),27,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784168" stop="1510204784168" status="passed">
+            <name>test[TC-27 (28 is not a prime number),28,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784168" stop="1510204784168" status="passed">
+            <name>test[TC-28 (29 is a prime number),29,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784168" stop="1510204784168" status="passed">
+            <name>test[TC-29 (30 is not a prime number),30,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784184" stop="1510204784184" status="passed">
+            <name>test[TC-30 (31 is a prime number),31,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784184" stop="1510204784184" status="passed">
+            <name>test[TC-31 (32 is not a prime number),32,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784184" stop="1510204784184" status="passed">
+            <name>test[TC-32 (33 is not a prime number),33,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784184" stop="1510204784184" status="passed">
+            <name>test[TC-33 (34 is not a prime number),34,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784184" stop="1510204784200" status="passed">
+            <name>test[TC-34 (35 is not a prime number),35,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784200" stop="1510204784200" status="passed">
+            <name>test[TC-35 (36 is not a prime number),36,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784200" stop="1510204784200" status="passed">
+            <name>test[TC-36 (37 is a prime number),37,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784200" stop="1510204784200" status="passed">
+            <name>test[TC-37 (38 is not a prime number),38,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784200" stop="1510204784215" status="passed">
+            <name>test[TC-38 (39 is not a prime number),39,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784215" stop="1510204784215" status="passed">
+            <name>test[TC-39 (40 is not a prime number),40,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784215" stop="1510204784215" status="passed">
+            <name>test[TC-40 (41 is a prime number),41,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784215" stop="1510204784215" status="passed">
+            <name>test[TC-41 (42 is not a prime number),42,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784215" stop="1510204784215" status="passed">
+            <name>test[TC-42 (43 is a prime number),43,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784231" stop="1510204784231" status="passed">
+            <name>test[TC-43 (44 is not a prime number),44,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784231" stop="1510204784231" status="passed">
+            <name>test[TC-44 (45 is not a prime number),45,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784231" stop="1510204784231" status="passed">
+            <name>test[TC-45 (46 is not a prime number),46,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784231" stop="1510204784246" status="passed">
+            <name>test[TC-46 (47 is a prime number),47,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784249" stop="1510204784249" status="passed">
+            <name>test[TC-47 (48 is not a prime number),48,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784249" stop="1510204784249" status="passed">
+            <name>test[TC-48 (49 is not a prime number),49,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784249" stop="1510204784249" status="passed">
+            <name>test[TC-49 (50 is not a prime number),50,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784249" stop="1510204784249" status="passed">
+            <name>test[TC-50 (51 is not a prime number),51,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784265" stop="1510204784265" status="passed">
+            <name>test[TC-51 (52 is not a prime number),52,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784265" stop="1510204784265" status="passed">
+            <name>test[TC-52 (53 is a prime number),53,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784265" stop="1510204784265" status="passed">
+            <name>test[TC-53 (54 is not a prime number),54,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784265" stop="1510204784265" status="passed">
+            <name>test[TC-54 (55 is not a prime number),55,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784265" stop="1510204784280" status="passed">
+            <name>test[TC-55 (56 is not a prime number),56,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784280" stop="1510204784280" status="passed">
+            <name>test[TC-56 (57 is not a prime number),57,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784280" stop="1510204784280" status="passed">
+            <name>test[TC-57 (58 is not a prime number),58,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784280" stop="1510204784280" status="passed">
+            <name>test[TC-58 (59 is a prime number),59,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784280" stop="1510204784296" status="passed">
+            <name>test[TC-59 (60 is not a prime number),60,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784296" stop="1510204784296" status="passed">
+            <name>test[TC-60 (61 is a prime number),61,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784296" stop="1510204784296" status="passed">
+            <name>test[TC-61 (62 is not a prime number),62,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784296" stop="1510204784296" status="passed">
+            <name>test[TC-62 (63 is not a prime number),63,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784311" stop="1510204784311" status="passed">
+            <name>test[TC-63 (64 is not a prime number),64,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784311" stop="1510204784311" status="passed">
+            <name>test[TC-64 (65 is not a prime number),65,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784311" stop="1510204784311" status="passed">
+            <name>test[TC-65 (66 is not a prime number),66,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784311" stop="1510204784311" status="passed">
+            <name>test[TC-66 (67 is a prime number),67,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784311" stop="1510204784327" status="passed">
+            <name>test[TC-67 (68 is not a prime number),68,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784327" stop="1510204784327" status="passed">
+            <name>test[TC-68 (69 is not a prime number),69,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784327" stop="1510204784327" status="passed">
+            <name>test[TC-69 (70 is not a prime number),70,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784327" stop="1510204784327" status="passed">
+            <name>test[TC-70 (71 is a prime number),71,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784327" stop="1510204784327" status="passed">
+            <name>test[TC-71 (72 is not a prime number),72,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784343" stop="1510204784345" status="passed">
+            <name>test[TC-72 (73 is a prime number),73,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784348" stop="1510204784348" status="passed">
+            <name>test[TC-73 (74 is not a prime number),74,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784350" stop="1510204784350" status="passed">
+            <name>test[TC-74 (75 is not a prime number),75,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784350" stop="1510204784350" status="passed">
+            <name>test[TC-75 (76 is not a prime number),76,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784350" stop="1510204784350" status="passed">
+            <name>test[TC-76 (77 is not a prime number),77,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784350" stop="1510204784350" status="passed">
+            <name>test[TC-77 (78 is not a prime number),78,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784366" stop="1510204784366" status="passed">
+            <name>test[TC-78 (79 is a prime number),79,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784366" stop="1510204784366" status="passed">
+            <name>test[TC-79 (80 is not a prime number),80,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784366" stop="1510204784366" status="passed">
+            <name>test[TC-80 (81 is not a prime number),81,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784366" stop="1510204784366" status="passed">
+            <name>test[TC-81 (82 is not a prime number),82,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784381" stop="1510204784381" status="passed">
+            <name>test[TC-82 (83 is a prime number),83,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784381" stop="1510204784381" status="passed">
+            <name>test[TC-83 (84 is not a prime number),84,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784381" stop="1510204784381" status="passed">
+            <name>test[TC-84 (85 is not a prime number),85,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784381" stop="1510204784381" status="passed">
+            <name>test[TC-85 (86 is not a prime number),86,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784397" stop="1510204784397" status="passed">
+            <name>test[TC-86 (87 is not a prime number),87,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784397" stop="1510204784397" status="passed">
+            <name>test[TC-87 (88 is not a prime number),88,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784397" stop="1510204784397" status="passed">
+            <name>test[TC-88 (89 is a prime number),89,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784397" stop="1510204784397" status="passed">
+            <name>test[TC-89 (90 is not a prime number),90,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784412" stop="1510204784412" status="passed">
+            <name>test[TC-90 (91 is not a prime number),91,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784412" stop="1510204784412" status="passed">
+            <name>test[TC-91 (92 is not a prime number),92,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784412" stop="1510204784412" status="passed">
+            <name>test[TC-92 (93 is not a prime number),93,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784412" stop="1510204784428" status="passed">
+            <name>test[TC-93 (94 is not a prime number),94,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784428" stop="1510204784428" status="passed">
+            <name>test[TC-94 (95 is not a prime number),95,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784428" stop="1510204784428" status="passed">
+            <name>test[TC-95 (96 is not a prime number),96,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784428" stop="1510204784428" status="passed">
+            <name>test[TC-96 (97 is a prime number),97,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784444" stop="1510204784444" status="passed">
+            <name>test[TC-97 (98 is not a prime number),98,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784446" stop="1510204784451" status="passed">
+            <name>test[TC-98 (99 is not a prime number),99,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784454" stop="1510204784454" status="passed">
+            <name>test[TC-99 (100 is not a prime number),100,false]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1510204784456" stop="1510204784459" status="passed">
+            <name>test[TC-100 (101 is a prime number),101,true]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="TestNG Suite"/>
+                <label name="testGroup" value="PrimeNumber"/>
+                <label name="testClass" value="core.PrimeNumberCheckerTest"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Vova-ПК"/>
+                <label name="thread" value="6860@Vova-ПК.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

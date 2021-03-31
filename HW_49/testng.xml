@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="BAT">
+	
+
+	<test name="Elements Validation" preserve-order="true">
+		
+		<parameter name="report" value="surefire" />
+		
+			<groups>
+			
+				<run>
+				
+					<include name="Presence" />
+																<include name="Location" />
+																<include name="Size" />
+				
+									
+				</run>
+		
+			</groups>
+		
+		<classes>
+			
+			<class name="core.ElementsValidationTest" />
+		
+		</classes>
+		
+	</test>
+
+</suite>

@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="99" passed="99">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1515" started-at="2017-08-25T05:32:04Z" finished-at="2017-08-25T05:32:05Z">
+    <groups>
+      <group name="qa">
+        <method signature="PrimeNumberCheckerTest.test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" class="core.PrimeNumberCheckerTest"/>
+      </group> <!-- qa -->
+    </groups>
+    <test name="Default test" duration-ms="1515" started-at="2017-08-25T05:32:04Z" finished-at="2017-08-25T05:32:05Z">
+      <class name="core.PrimeNumberCheckerTest">
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="140" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="17" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="15" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="78" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="47" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="15" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="15" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="15" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="78" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:04Z" data-provider="prime number" finished-at="2017-08-24T22:32:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="31" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[38]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="15" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[39]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[41]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="31" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[43]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[44]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="15" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[46]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[48]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[49]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[51]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="93" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[53]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[52]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[57]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[58]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[62]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[63]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[64]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[59]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[61]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="15" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[67]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[66]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[68]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="32" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[69]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[71]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[73]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[72]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[74]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[75]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="15" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[76]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[77]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[78]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="15" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[79]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[82]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[83]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="15" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[84]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[87]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[89]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[86]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[88]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[92]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[94]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="15" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[95]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[93]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[91]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="16" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[96]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="47" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[97]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="0" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[98]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(int, boolean)[pri:0, instance:core.PrimeNumberCheckerTest@3118b0]" name="test" duration-ms="15" started-at="2017-08-24T22:32:05Z" data-provider="prime number" finished-at="2017-08-24T22:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- core.PrimeNumberCheckerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

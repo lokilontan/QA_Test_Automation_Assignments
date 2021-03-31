@@ -1,0 +1,579 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>100/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 21 00:40:22 MST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1602 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-01 (2 is a prime number), 2, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-02 (3 is a prime number), 3, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-03 (4 is not a prime number), 4, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-04 (5 is a prime number), 5, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-05 (6 is not a prime number), 6, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-06 (7 is a prime number), 7, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-07 (8 is not a prime number), 8, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-08 (9 is not a prime number), 9, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-9 (10 is not a prime number), 10, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-10 (11 is a prime number), 11, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-11 (12 is not a prime number), 12, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-12 (13 is a prime number), 13, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-13 (14 is not a prime number), 14, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-14 (15 is not a prime number), 15, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-15 (16 is not a prime number), 16, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-16 (17 is a prime number), 17, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-17 (18 is not a prime number), 18, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-18 (19 is a prime number), 19, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-19 (20 is not a prime number), 20, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-20 (21 is not a prime number), 21, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-21 (22 is not a prime number), 22, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-22 (23 is a prime number), 23, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-23 (24 is not a prime number), 24, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-24 (25 is not a prime number), 25, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-25 (26 is not a prime number), 26, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-26 (27 is not a prime number), 27, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-27 (28 is not a prime number), 28, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-28 (29 is a prime number), 29, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-29 (30 is not a prime number), 30, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-30 (31 is a prime number), 31, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-31 (32 is not a prime number), 32, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-32 (33 is not a prime number), 33, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-33 (34 is not a prime number), 34, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-34 (35 is not a prime number), 35, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-35 (36 is not a prime number), 36, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-36 (37 is a prime number), 37, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-37 (38 is not a prime number), 38, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-38 (39 is not a prime number), 39, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-39 (40 is not a prime number), 40, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-40 (41 is a prime number), 41, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-41 (42 is not a prime number), 42, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-42 (43 is a prime number), 43, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-43 (44 is not a prime number), 44, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-44 (45 is not a prime number), 45, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-45 (46 is not a prime number), 46, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-46 (47 is a prime number), 47, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-47 (48 is not a prime number), 48, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-48 (49 is not a prime number), 49, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-49 (50 is not a prime number), 50, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-50 (51 is not a prime number), 51, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-51 (52 is not a prime number), 52, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-52 (53 is a prime number), 53, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-53 (54 is not a prime number), 54, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-54 (55 is not a prime number), 55, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-55 (56 is not a prime number), 56, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-56 (57 is not a prime number), 57, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-57 (58 is not a prime number), 58, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-58 (59 is a prime number), 59, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-59 (60 is not a prime number), 60, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-60 (61 is a prime number), 61, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-61 (62 is not a prime number), 62, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-62 (63 is not a prime number), 63, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-63 (64 is not a prime number), 64, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-64 (65 is not a prime number), 65, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-65 (66 is not a prime number), 66, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-66 (67 is a prime number), 67, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-67 (68 is not a prime number), 68, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-68 (69 is not a prime number), 69, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-69 (70 is not a prime number), 70, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-70 (71 is a prime number), 71, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-71 (72 is not a prime number), 72, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-72 (73 is a prime number), 73, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-73 (74 is not a prime number), 74, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-74 (75 is not a prime number), 75, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-75 (76 is not a prime number), 76, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-76 (77 is not a prime number), 77, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-77 (78 is not a prime number), 78, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-78 (79 is a prime number), 79, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-79 (80 is not a prime number), 80, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-80 (81 is not a prime number), 81, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-81 (82 is not a prime number), 82, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-82 (83 is a prime number), 83, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-83 (84 is not a prime number), 84, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-84 (85 is not a prime number), 85, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-85 (86 is not a prime number), 86, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-86 (87 is not a prime number), 87, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-87 (88 is not a prime number), 88, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-88 (89 is a prime number), 89, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-89 (90 is not a prime number), 90, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-90 (91 is not a prime number), 91, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-91 (92 is not a prime number), 92, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-92 (93 is not a prime number), 93, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-93 (94 is not a prime number), 94, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-94 (95 is not a prime number), 95, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-95 (96 is not a prime number), 96, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-96 (97 is a prime number), 97, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-97 (98 is not a prime number), 98, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-98 (99 is not a prime number), 99, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-99 (100 is not a prime number), 100, false</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+<tr>
+<td title='core.PrimeNumberCheckerTest.test()'><b>test</b><br>Test class: core.PrimeNumberCheckerTest<br>Parameters: TC-100 (101 is a prime number), 101, true</td>
+<td></td>
+<td>0</td>
+<td>core.PrimeNumberCheckerTest@137203b</td></tr>
+</table><p>
+</body>
+</html>

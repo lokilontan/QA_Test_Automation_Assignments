@@ -1,0 +1,100 @@
+TC-01 (2 is a prime number),2,true
+TC-02 (3 is a prime number),3,true
+TC-03 (4 is not a prime number),4,false
+TC-04 (5 is a prime number),5,true
+TC-05 (6 is not a prime number),6,false
+TC-06 (7 is a prime number),7,true
+TC-07 (8 is not a prime number),8,false
+TC-08 (9 is not a prime number),9,false
+TC-9 (10 is not a prime number),10,false
+TC-10 (11 is a prime number),11,true
+TC-11 (12 is not a prime number),12,false
+TC-12 (13 is a prime number),13,true
+TC-13 (14 is not a prime number),14,false
+TC-14 (15 is not a prime number),15,false
+TC-15 (16 is not a prime number),16,false
+TC-16 (17 is a prime number),17,true
+TC-17 (18 is not a prime number),18,false
+TC-18 (19 is a prime number),19,true
+TC-19 (20 is not a prime number),20,false
+TC-20 (21 is not a prime number),21,false
+TC-21 (22 is not a prime number),22,false
+TC-22 (23 is a prime number),23,true
+TC-23 (24 is not a prime number),24,false
+TC-24 (25 is not a prime number),25,false
+TC-25 (26 is not a prime number),26,false
+TC-26 (27 is not a prime number),27,false
+TC-27 (28 is not a prime number),28,false
+TC-28 (29 is a prime number),29,true
+TC-29 (30 is not a prime number),30,false
+TC-30 (31 is a prime number),31,true
+TC-31 (32 is not a prime number),32,false
+TC-32 (33 is not a prime number),33,false
+TC-33 (34 is not a prime number),34,false
+TC-34 (35 is not a prime number),35,false
+TC-35 (36 is not a prime number),36,false
+TC-36 (37 is a prime number),37,true
+TC-37 (38 is not a prime number),38,false
+TC-38 (39 is not a prime number),39,false
+TC-39 (40 is not a prime number),40,false
+TC-40 (41 is a prime number),41,true
+TC-41 (42 is not a prime number),42,false
+TC-42 (43 is a prime number),43,true
+TC-43 (44 is not a prime number),44,false
+TC-44 (45 is not a prime number),45,false
+TC-45 (46 is not a prime number),46,false
+TC-46 (47 is a prime number),47,true
+TC-47 (48 is not a prime number),48,false
+TC-48 (49 is not a prime number),49,false
+TC-49 (50 is not a prime number),50,false
+TC-50 (51 is not a prime number),51,false
+TC-51 (52 is not a prime number),52,false
+TC-52 (53 is a prime number),53,true
+TC-53 (54 is not a prime number),54,false
+TC-54 (55 is not a prime number),55,false
+TC-55 (56 is not a prime number),56,false
+TC-56 (57 is not a prime number),57,false
+TC-57 (58 is not a prime number),58,false
+TC-58 (59 is a prime number),59,true
+TC-59 (60 is not a prime number),60,false
+TC-60 (61 is a prime number),61,true
+TC-61 (62 is not a prime number),62,false
+TC-62 (63 is not a prime number),63,false
+TC-63 (64 is not a prime number),64,false
+TC-64 (65 is not a prime number),65,false
+TC-65 (66 is not a prime number),66,false
+TC-66 (67 is a prime number),67,true
+TC-67 (68 is not a prime number),68,false
+TC-68 (69 is not a prime number),69,false
+TC-69 (70 is not a prime number),70,false
+TC-70 (71 is a prime number),71,true
+TC-71 (72 is not a prime number),72,false
+TC-72 (73 is a prime number),73,true
+TC-73 (74 is not a prime number),74,false
+TC-74 (75 is not a prime number),75,false
+TC-75 (76 is not a prime number),76,false
+TC-76 (77 is not a prime number),77,false
+TC-77 (78 is not a prime number),78,false
+TC-78 (79 is a prime number),79,true
+TC-79 (80 is not a prime number),80,false
+TC-80 (81 is not a prime number),81,false
+TC-81 (82 is not a prime number),82,false
+TC-82 (83 is a prime number),83,true
+TC-83 (84 is not a prime number),84,false
+TC-84 (85 is not a prime number),85,false
+TC-85 (86 is not a prime number),86,false
+TC-86 (87 is not a prime number),87,false
+TC-87 (88 is not a prime number),88,false
+TC-88 (89 is a prime number),89,true
+TC-89 (90 is not a prime number),90,false
+TC-90 (91 is not a prime number),91,false
+TC-91 (92 is not a prime number),92,false
+TC-92 (93 is not a prime number),93,false
+TC-93 (94 is not a prime number),94,false
+TC-94 (95 is not a prime number),95,false
+TC-95 (96 is not a prime number),96,false
+TC-96 (97 is a prime number),97,true
+TC-97 (98 is not a prime number),98,false
+TC-98 (99 is not a prime number),99,false
+TC-99 (100 is not a prime number),100,false
+TC-100 (101 is a prime number),101,true
